@@ -1,0 +1,32 @@
+{
+  "name": "tdd-bank",
+  "version": "0.0.0",
+  "description": "test-driven development bank",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "mocha test --recursive -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jbrooks036/tdd-bank"
+  },
+  "author": "JoAnn Brooks <jbrooks036@gmail.com>",
+  "contributor": "Daniel Roden <daniel.s.roden@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jbrooks036/tdd-bank/issues"
+  },
+  "homepage": "https://github.com/jbrooks036/tdd-bank",
+  "dependencies": {
+    "chalk": "^0.5.1",
+    "sync-prompt": "^0.4.1"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "jshint-stylish": "^0.4.0",
+    "mocha": "^1.20.1"
+  }
+}
